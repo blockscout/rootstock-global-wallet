@@ -2,7 +2,7 @@
   "name": "@blockscout/rootstock-global-wallet",
   "author": "Blockscout",
   "description": "Global wallet SDK for Rootstock chain",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1-alpha.1",
   "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
