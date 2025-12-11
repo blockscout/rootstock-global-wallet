@@ -9,6 +9,17 @@
   "types": "dist/types/index.d.ts",
   "typings": "./dist/types/index.d.ts",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blockscout/rootstock-global-wallet.git"
+  },
+  "homepage": "https://github.com/blockscout/rootstock-global-wallet/tree/main",
+  "bugs": {
+    "url": "https://github.com/blockscout/rootstock-global-wallet/issues"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rm -rf dist && npm run build:esm && npm run build:cjs && npm run build:types",
     "build:esm": "tsc --project tsconfig.json --outDir dist/esm && tsc-alias --project tsconfig.json --outDir dist/esm",
@@ -90,5 +101,8 @@
       "import": "./dist/esm/zerodev.js",
       "default": "./dist/cjs/zerodev.js"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
