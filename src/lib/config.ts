@@ -19,7 +19,7 @@ export const config: Config = {
   // URL of your wallet domain (e.g. https://dynamic.example.com)
   walletUrl: "https://rootstock-global-wallet.blockscout.com",
   // Environment ID of your wallet (e.g. 1234567890)
-  environmentId: "b1ed3675-561e-4219-9ac1-17a947ca705c",
+  environmentId: "50fd93d4-3109-4914-af56-9e7bcb16c469",
   // EIP6963 configuration
   eip6963: {
     // RDNS of your wallet (e.g. com.example.wallet)
